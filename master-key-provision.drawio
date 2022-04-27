@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-04-27T15:27:20.375Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="Km2O4tyg1f57wLa0wZei" version="17.4.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-04-27T15:29:50.909Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="qFwcTXLp9874obQvEvsS" version="17.4.6" type="github" pages="2">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="key provision">
-    <mxGraphModel dx="950" dy="435" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1146" dy="526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -104,13 +104,13 @@
             <mxPoint x="-260" y="-510" as="targetPoint" />
             <Array as="points">
               <mxPoint x="80" y="170" />
-              <mxPoint x="80" y="210" />
+              <mxPoint x="80" y="280" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="EEtvycslkY9C_3zj9G8r-41" value="with master key" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EEtvycslkY9C_3zj9G8r-40">
           <mxGeometry x="0.0141" y="1" relative="1" as="geometry">
-            <mxPoint x="29" y="-1" as="offset" />
+            <mxPoint x="29" y="-36" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="EEtvycslkY9C_3zj9G8r-32" value="KeyDistribution::&#xa;MasterKeyDistribution" style="verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;shadow=0;strokeWidth=1;" edge="1" parent="1" source="EEtvycslkY9C_3zj9G8r-26" target="EEtvycslkY9C_3zj9G8r-29">
@@ -158,7 +158,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="iEL9rWnkJtrg6ZWkQ0Re" name="key rotation">
-    <mxGraphModel dx="950" dy="435" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="791" dy="363" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -194,7 +194,7 @@
         </mxCell>
         <mxCell id="90F0D80HMPsHJ2YYWHQx-3" value="old key" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="90F0D80HMPsHJ2YYWHQx-2">
           <mxGeometry x="0.0141" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="5" y="-31" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="R8-fT7iCxsikBQm_u6NB-1" value="GatekeeperLaunch::&#xa;RotateMasterKey" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1" source="e0qTqMMIt0wDyLh3maRx-2" target="e0qTqMMIt0wDyLh3maRx-4">
@@ -208,8 +208,8 @@
         </mxCell>
         <mxCell id="R8-fT7iCxsikBQm_u6NB-2" value="share_master_key" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="380" y="190.00000000000006" as="sourcePoint" />
-            <mxPoint x="585" y="190.00000000000006" as="targetPoint" />
+            <mxPoint x="380" y="220.00000000000006" as="sourcePoint" />
+            <mxPoint x="585" y="220.00000000000006" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="zDoGgfnQEByGvRZc82uI-1" value="KeyDistribution::GKMasterKeyDistribution with old master key" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;fillColor=#FF0000;strokeColor=#FF0000;" edge="1" parent="1" source="e0qTqMMIt0wDyLh3maRx-13" target="e0qTqMMIt0wDyLh3maRx-2">
